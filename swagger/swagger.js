@@ -13,7 +13,7 @@ const options = {
       description: "servidor local",
     },
   },
-  apis: [`${__dirname}/routes/*.js`],
+  apis: [`${__dirname}/routers/*.js`],
 }
 
 const swaggerSpec = swaggerJSDoc(options)

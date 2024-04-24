@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const User = require("./userModel")
 
 const pelucheSchema = new mongoose.Schema({
   user: {

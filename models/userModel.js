@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-const Peluche = require("../models/peluchesModel")
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -19,10 +18,6 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ["user", "admin"],
     default: "user",
-  },
-  peluche: {
-    type: Peluche,
-    require: false,
   },
 })
 
